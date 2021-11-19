@@ -56,9 +56,9 @@ const findExpensiveFlowers = () => {
         added to the `expensiveFlowers` array.
     */
         for (let i=0; i < flowers.length; i++) {
-            if (flowers[i].price >= 1.00)
+            if (flowers[i].price >= 1.00) {
             expensiveFlowers.push(flowers)
-        
+            }
         }
 
     return expensiveFlowers  // Do not change this code
